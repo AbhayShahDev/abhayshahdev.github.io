@@ -182,16 +182,17 @@ img{
     font-size: 1.2rem;
 }
 
-.nav-close{
+.nav-close i.icon{
     position: absolute;
     right: 1.3rem;
     bottom: .5rem;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--first-color);
+    display: inline-block;
 }
 
-.nav-close:hover{
+.nav-close i.icon:hover{
     color: var(--first-alt-color);
 }
 
@@ -314,4 +315,37 @@ i.icon{
 .button-flex{
     display: inline-flex;
     align-items: center;
+}
+
+/* About */
+.about-description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about-info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about-info-name{
+    font-size: var(--small-font-size);
+}
+
+.about-info-name,
+.about-info-title{
+    display: block;
+    text-align: center;
+}
+
+.about-btn{
+    display: flex;
+    justify-content: center;
 }

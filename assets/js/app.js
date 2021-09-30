@@ -12,3 +12,14 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
+
+//Remove Menu Mobile
+
+// var ul = document.getElementsByClassName("nav-list");
+var items = document.getElementsByClassName("nav-link");
+for (var i = 0; i < items.length; ++i) {
+  // do something with items[i], which is a <li> element
+  items[i].addEventListener('click', ()=>{
+    navMenu.classList.remove('show-menu');
+  })
+}
