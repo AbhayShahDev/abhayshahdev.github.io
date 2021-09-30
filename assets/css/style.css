@@ -75,6 +75,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
     width: 100%;
+    min-width: 100%;
 }
 
 h1, h2, h3, h4{
@@ -161,7 +162,7 @@ img{
 
 .nav-list{
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav-link{
