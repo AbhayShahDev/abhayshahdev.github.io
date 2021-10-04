@@ -349,6 +349,9 @@ img{
     padding: 0.8rem 2rem;
     border-radius: 3rem;
     font-weight: var(--font-semi-bold);
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .button:hover{
