@@ -290,7 +290,7 @@
                 <div id="myBtnContainer" style="text-align: center;">
                     <button class="portfolio-btn active" onclick="filterSelection('all')"> Show all</button>
                     <button class="portfolio-btn" onclick="filterSelection('staticweb')">Static Website</button>
-                    <button class="portfolio-btn" onclick="filterSelection('JS')">JavaScript</button>
+                    <button class="portfolio-btn sm-mt-0-8" onclick="filterSelection('JS')">JavaScript</button>
                     <!-- <button class="portfolio-btn" onclick="filterSelection('css')"> CSS</button> -->
                   </div>
                   
@@ -301,7 +301,7 @@
                         <img src="assets/img/curtain.jpeg" alt="Curtain" style="width:100%">
                         <h4>Curtain</h4>
                         <p>Curtain using HTML, CSS and JavaScript.</p>
-                        <div class="d-flex-justify">
+                        <div class="d-flex-justify-between">
                             <a href="https://awardweb.netlify.app/" target="_blank" class="button button-flex">Demo<i class="angle right icon btn-icon"></i></a>
                             <!-- <a href="" class="button button-flex">Code<i class="angle right icon btn-icon"></i></a> -->
                         </div>
@@ -313,7 +313,7 @@
                         <img src="assets/img/navbar1.jpeg" alt="Navbar1" style="width:100%">
                         <h4>Navbar with search bar & mobile side menu</h4>
                         <p>Navbar using HTML & CSS.</p>
-                        <div class="d-flex-justify">
+                        <div class="d-flex-justify-between">
                             <a href="" class="button button-flex">Demo<i class="angle right icon btn-icon"></i></a>
                             <!-- <a href="" class="button button-flex">Code<i class="angle right icon btn-icon"></i></a> -->
                         </div>
@@ -325,7 +325,7 @@
                         <img src="assets/img/cohora.jpeg" alt="Cohora" style="width:100%">
                         <h4>Static Website</h4>
                         <p>Using HTML, CSS, Bootstrap, JS & Owl-carousel</p>
-                        <div class="d-flex-justify">
+                        <div class="d-flex-justify-between">
                             <a href="https://cohora.netlify.app" target="_blank" class="button button-flex">Demo<i class="angle right icon btn-icon"></i></a>
                             <!-- <a href="" class="button button-flex">Code<i class="angle right icon btn-icon"></i></a> -->
                         </div>
@@ -337,7 +337,7 @@
                         <img src="assets/img/lybr.jpeg" alt="Lybr" style="width:100%">
                         <h4>Static Website</h4>
                         <p>Using HTML, CSS, Bootstrap, JS & Owl-carousel</p>
-                        <div class="d-flex-justify">
+                        <div class="d-flex-justify-between">
                             <a href="https://lybr.netlify.app/" target="_blank" class="button button-flex">Demo<i class="angle right icon btn-icon"></i></a>
                             <!-- <a href="" class="button button-flex">Code<i class="angle right icon btn-icon"></i></a> -->
                         </div>
@@ -352,15 +352,8 @@
         <!-- Contact -->
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
-            <div class="contact-container container grid">
-                <div>
-                    <div class="contact-information">
-                        <i class="far fa-envelope contact-icon"></i>
-                        <div>
-                            <h3 class="contact-title">Mail</h3>
-                            <span class="contact-subtitle">abhayshahdev@gmail.com</span>
-                        </div>
-                    </div>
+            <div class="container">
+                <div class="d-flex-justify-between sm-column-text-center">
                     <div class="contact-information">
                         <i class="fas fa-map-marker-alt contact-icon"></i>
                         <div>
@@ -368,30 +361,14 @@
                             <span class="contact-subtitle">Lucknow</span>
                         </div>
                     </div>
+                    <div class="contact-information">
+                        <i class="far fa-envelope contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Mail</h3>
+                            <a href="mailto:abhay.wd2019@gmail.com" class="contact-subtitle">abhayshahdev@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
-                <form action="mailto:abhay.wd2019@gmail.com" enctype="text/plain" class="contact-form grid">
-                    <div class="contact-inputs grid">
-                        <div class="contact-content">
-                            <label for="" class="contact-label">Name</label>
-                            <input type="text" class="contact-input">
-                        </div>
-                        <div class="contact-content">
-                            <label for="" class="contact-label">Email</label>
-                            <input type="email" class="contact-input">
-                        </div>
-                    </div>
-                    <div class="contact-content">
-                        <label for="" class="contact-label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
-                    </div>
-                    <div>
-                        <!-- <a href="" class="button button-flex">
-                            Send Message
-                            <i class="fas fa-paper-plane contact-icon"></i>
-                        </a> -->
-                        <input type="submit" value="Send" class="button button-flex">
-                    </div>
-                </form>
             </div>
         </section>
     </main>

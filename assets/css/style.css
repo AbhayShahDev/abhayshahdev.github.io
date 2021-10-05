@@ -195,7 +195,7 @@ img{
     background-color: var(--body-color);
 }
 
-.d-flex-justify{
+.d-flex-justify-between{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -929,6 +929,13 @@ margin-left: var(--mb-0-25);
     .portfolio-row, .portfolio-row > .portfolio-column{
         width: 100%;
         margin: 0 auto;
+    }
+    .sm-column-text-center{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sm-mt-0-8{
+        margin-top: .8rem;
     }
 }
 
